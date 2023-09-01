@@ -2,9 +2,24 @@ import json
 from fastapi import FastAPI
 import requests
 from fastapi.responses import HTMLResponse
+from fastapi.middleware.cors import CORSMiddleware
 
 
 app = FastAPI()
+
+
+origins = [
+    # 'http://127.0.0.1:8003',
+    # 'http://localhost:8003',
+    '*'
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/",response_class=HTMLResponse)
 def index():
