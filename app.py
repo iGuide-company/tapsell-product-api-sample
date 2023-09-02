@@ -26,13 +26,13 @@ def index():
     return f'''
 <html>
     <head>
-        <link rel="stylesheet" href="https://iguide-backend.darkube.app/public/08ea9206-1662-45d9-8208-5a61b246c26d/assets/index-f884a369.css" />
+        <link rel="stylesheet" href="https://iguide-backend.darkube.app/public/bc567adc-67a8-4064-a8d1-a16eacc69ed9/assets/index-f884a369.css" /> 
         <title>Tapsell sample use iguide</title>
     </head>
     <body>
         <div style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);width:300px;text-align:center;"><h1>Hi Dear.</h1> <p>Wellcome to iGuide for use this tools for answer to your question about tapsell open chatbox.</p></div>
         <div id="shoper-root"></div>
-        <script src="https://iguide-backend.darkube.app/public/08ea9206-1662-45d9-8208-5a61b246c26d/assets/index-93a07def.js"></script>
+        <script src="https://iguide-backend.darkube.app/public/bc567adc-67a8-4064-a8d1-a16eacc69ed9/assets/index-51bf4707.js"></script>
     </body>
 </html>
 '''
